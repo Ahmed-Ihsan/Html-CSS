@@ -1,48 +1,38 @@
 body{
-    background-image: url(img2.jpg) ;
- /*ackground: skyblue;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: Verdana, Geneva, sans-serif;
-    margin: 0 ;
-    padding: 0;
-    
-    background-repeat: round;
-   
+  background-image: url(img.jpg);
 }
 
-
-.box{
+.box2{
+    margin-top:5%;
     position: absolute;
-    top: min(100vw, 50%);
+    top: min(100vw,500%);
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
-   padding: 40px ;
+    height: 550px;
+    padding: 40px ;
     background: rgba(0,0,0,.8) ;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px ;
-
 }
 
-.box h2{
+
+.box2 h2{
     color: #fff;
     margin: 0 0 30px;
     padding: 0;
     text-align: center;
-      
+
 }
 
-.box .inputBox{
+.box2 .inputBox{
     position: relative ;
 }
-.box .inputBox input{
+.box2 .inputBox input{
     width: 100%;
     padding:  10px 0 ;
-    font-size: 16px;  
+    font-size: 16px;
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -50,10 +40,10 @@ body{
     border-bottom: 1px solid orange;
     outline: none;
     background: transparent ;
-    
-    
+
+
 }
-.box .inputBox label{
+.box2 .inputBox label{
     position: absolute;
     top: 0;
     left: 0;
@@ -63,20 +53,20 @@ body{
     color: #fff;
     pointer-events: none;
     transition: 1.4s;
-    
+
 }
 
 
-.box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label{
+.box2 .inputBox input:focus ~ label,
+.box2 .inputBox input:valid ~ label{
     top: -18px;
     left: 0;
     color: #03a9f4;
-    font-size: 12px;    
+    font-size: 12px;
 }
 
-.box input[type="submit"]{
-    
+.box2 input[type="submit"]{
+
     background: transparent;
     border: none;
     outline: none;
@@ -85,5 +75,5 @@ body{
     padding: 10px 20px ;
     cursor: pointer;
     border-radius: 10px ;
-    
+
 }

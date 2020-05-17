@@ -1,0 +1,22 @@
+#img{height: : 300px;}
+/*# sourceMappingURL=scss.css.map */
+body{
+  background: rgba(0,0,0,.8) ;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #box{
+    left: 50%;
+    width: 900px;
+    transform: translate(-55%,-50%);top: 320px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #box{
+    left: 50%;
+    width: 900px;
+    transform: translate(-55%,-50%);top: 400px;
+  }
+}
